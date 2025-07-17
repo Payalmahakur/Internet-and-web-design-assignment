@@ -1,0 +1,27 @@
+ form {
+            background-color: #17778b77;
+            padding: 20px;
+            border-radius: 10px;
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+        
+        input[type="submit"] {
+            background-color: #007bffaf;
+            color: rgba(171, 12, 12, 0.696);
+            border: none;
+            border-radius: 4px;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #0033b337;
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
